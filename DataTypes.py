@@ -12,8 +12,8 @@ dictionary_type = {"name" : "John", "age" : 36}
 set_type = {"apple", "banana", "cherry"}
 frozenset_type = frozenset({"apple", "banana", "cherry"})
 byte_type = b"Hello"
-bytearray_type = bytearray(5)
-memoryview_type = memoryview(bytes(5))
+byte_array_type = bytearray(5)
+memory_view_type = memoryview(bytes(5))
 
 print("--------------------------------------")
 print(string_type)
@@ -64,9 +64,9 @@ print(byte_type)
 print(type(byte_type))
 print("--------------------------------------")
 
-print(bytearray_type)
-print(type(bytearray_type))
+print(byte_array_type)
+print(type(byte_array_type))
 print("--------------------------------------")
 
-print(memoryview_type)
-print(type(memoryview_type))
+print(memory_view_type)
+print(type(memory_view_type))
