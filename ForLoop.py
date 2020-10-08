@@ -10,4 +10,3 @@ for character in new_string.split(' '):
 for digit in range(3, 10):
     print(digit)
 
-
