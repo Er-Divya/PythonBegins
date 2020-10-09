@@ -1,23 +1,23 @@
 # This program will demonstrate how to use dictionary in python
 
 my_dictionary = {
-    "Jan" : "January",
-    "Feb" : "February",
-    "Mar" : "March",
-    "Apr" : "April",
-    "May" : "May",
-    "Jun" : "June",
-    "Jul" : "July",
-    "Aug" : "August",
-    "Sep" : "September",
-    "Oct" : "October",
-    "Nov" : "November",
-    "Dec" : "December",
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
 }
 
-# Get specific value from a dictionary
-print(my_dictionary["Jan"])
-# Get specific value from a dictionary using get function
+# Get specific value from a dictionary. In case specified key not found an error will be thrown.
+print(my_dictionary["Sep"])
+# Get specific value from a dictionary using get function. If this key not found no error will be thrown.
 print(my_dictionary.get("Mar"))
 # Try finding finding a key which is not present in dictionary
 print(my_dictionary.get("Lov"))
