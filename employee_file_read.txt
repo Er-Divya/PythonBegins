@@ -1,0 +1,7 @@
+new employee list
+ Yoda - HR
+ Soda - Supervisor
+ Koda - Developer
+ Toda - Tester
+ Boda - Business Analyst
+ Aoda - Assistant manager
