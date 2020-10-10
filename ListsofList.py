@@ -27,6 +27,7 @@ def make_list_two_dimensional(list_passed):
 make_list_two_dimensional(one_dim_list)
 
 # Second Approach: Using List comprehension. This approach can be used on int data type values in list as well.
+# Syntax for list comprehension is [expression for item in list]
 
 
 def get_two_dim_list(one_d_list):
@@ -39,7 +40,7 @@ print(get_two_dim_list(one_dim_list))
 
 
 def convert_list_into_two_dim_list(one_dimension_list):
-    return list(map(lambda el:[el], one_dimension_list))
+    return list(map(lambda el: [el], one_dimension_list))
 
 
 print(convert_list_into_two_dim_list(one_dim_list))
