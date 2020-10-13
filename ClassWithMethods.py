@@ -1,3 +1,6 @@
+import datetime
+
+
 class Employee:
 
     # Class variable
@@ -32,9 +35,15 @@ class Employee:
         first, last, pay = emp_str.split('-')
         return cls(first, last, pay)
 
+    # Static Methods: When function does not use instance or class to perform the action
+    @staticmethod
+    def is_work_day(day):
+        if day.weekday() == 5 or day.weekday == 6:
+            return False
+        return True
+
 
 emp1 = Employee("John", "Cna", 500000)
-
 emp2 = Employee("Jill", "Jacob", 900000)
 
 # If we write like this: emp1.new_function() we by default pass emp1 instance to the new_function method.
@@ -69,4 +78,8 @@ emp_str_1 = "Marlyn-Mounroy-980000"
 new_emp1 = Employee.get_employee(emp_str_1)
 
 print(new_emp1.full_name())
+
+my_date = datetime.date(2020, 10, 13)
+print(my_date)
+print("Weekday : " + str(Employee.is_work_day(my_date)))
 
